@@ -1,0 +1,29 @@
+INFO: Default config_file: gifos_settings.toml loaded
+INFO: Default config_file: ansi_escape_colors.toml loaded
+WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/gifos/fonts/gohufont-uni-14.pil is BitMap - Ignoring size 16
+INFO: Loaded font_file: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/gifos/fonts/gohufont-uni-14.pil
+INFO: Number of rows: 27
+INFO: Number of columns: 98
+INFO: Generated frame #1
+INFO: Generated frame #2
+INFO: Generated frame #3
+INFO: Generated frame #4
+INFO: Generated frame #5
+INFO: Generated frame #6
+INFO: Generated frame #7
+INFO: Generated frame #8
+INFO: Generated frame #9
+INFO: Generated frame #10
+Traceback (most recent call last):
+  File "/home/runner/work/shree1071/shree1071/main.py", line 17, in <module>
+    t.gen_text(text="🏆 6x Hackathon Winner (across AI, Web3, Healthcare)", row_num=11)
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/gifos/gifos.py", line 586, in gen_text
+    _, _, rx2, _ = draw.textbbox(
+                   ^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/PIL/ImageDraw.py", line 859, in textbbox
+    bbox = font.getbbox(
+           ^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/PIL/ImageFont.py", line 176, in getbbox
+    width, height = self.font.getsize(text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'latin-1' codec can't encode character '\U0001f3c6' in position 0: ordinal not in range(256)
