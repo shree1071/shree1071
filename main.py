@@ -14,11 +14,11 @@ t.gen_text(text='  "Web3": ["Solidity", "Hardhat", "Ethers.js", "WalletConnect",
 t.gen_text(text="", row_num=9)
 
 t.gen_text(text="shree1071@bmsit:~$ ./fetch_achievements.sh", row_num=10)
-t.gen_text(text="🏆 6x Hackathon Winner (across AI, Web3, Healthcare)", row_num=11)
-t.gen_text(text="🥈 2nd Place - Spectre Hackathon (National Level)", row_num=12)
-t.gen_text(text="🥇 2x 1st Place - InCSEption Hackathon (Department Level)", row_num=13)
-t.gen_text(text="🔬 IEEE Research Intern (Blockchain-based medical records)", row_num=14)
-t.gen_text(text="👨‍💻 Technical Lead - Generative AI Club, BMSIT", row_num=15)
+t.gen_text(text="[+] 6x Hackathon Winner (across AI, Web3, Healthcare)", row_num=11)
+t.gen_text(text="[+] 2nd Place - Spectre Hackathon (National Level)", row_num=12)
+t.gen_text(text="[+] 2x 1st Place - InCSEption Hackathon (Department Level)", row_num=13)
+t.gen_text(text="[+] IEEE Research Intern (Blockchain-based medical records)", row_num=14)
+t.gen_text(text="[+] Technical Lead - Generative AI Club, BMSIT", row_num=15)
 t.gen_text(text="", row_num=16)
 
 try:
