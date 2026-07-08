@@ -42,9 +42,4 @@
 
 ---
 
-### 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shree1071&show_icons=true&theme=radium" alt="shree1071's GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shree1071&layout=compact&theme=radium" alt="Top Languages" />
-</p>
